@@ -16,8 +16,8 @@ export const PlanetsDetailed = () => {
 			<hr className="my-4" />
 
 			<img
-				src="https://lumiere-a.akamaihd.net/v1/images/tatooine-main_127c43c7.jpeg?region=164%2C0%2C953%2C536"
-				style={{ height: "200px", width: "200px", marginLeft: "90px" }}
+				src={store.planetImg[store.planets[params.theid].name]}
+				style={{ height: "200px", width: "350px", marginLeft: "40px" }}
 				alt="..."
 			/>
 

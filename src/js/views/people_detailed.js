@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import PropTypes, { element } from "prop-types";
 import { Link, useParams } from "react-router-dom";
 import { Context } from "../store/appContext";
-import peopleImg from "../component/peopleImg";
+
 import { People } from "../component/people";
 
 export const PeopleDetailed = props => {
@@ -22,7 +22,7 @@ export const PeopleDetailed = props => {
 			<img
 				src={store.peopleImg[store.people[params.theid].name]}
 				//src="https://lumiere-a.akamaihd.net/v1/images/eu_sws-9-the-rise-of-skywalker_ft_m_e116ee0e.jpeg?region=0,0,750,883"
-				style={{ height: "200px", width: "200px", marginLeft: "90px" }}
+				style={{ height: "200px", width: "350px", marginLeft: "40px" }}
 				alt="..."
 			/>
 

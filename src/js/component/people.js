@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import { Context } from "../store/appContext";
-import peopleImg from "../component/peopleImg";
+
 import { Link } from "react-router-dom";
 
 export function People() {

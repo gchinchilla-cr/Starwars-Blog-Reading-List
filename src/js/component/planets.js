@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import { Context } from "../store/appContext";
-import planetImg from "../component/planetImg";
+
 import { Link } from "react-router-dom";
 
 export function Planets() {

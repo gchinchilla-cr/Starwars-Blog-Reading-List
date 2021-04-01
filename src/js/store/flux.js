@@ -16,7 +16,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				"Owen Lars":
 					"https://lumiere-a.akamaihd.net/v1/images/databank_owenlars_01_169_effce0f8.jpeg?region=0%2C0%2C1560%2C878&width=960",
 				"Beru Whitesun lars":
-					"https://lh3.googleusercontent.com/proxy/Urlm1xMS6EraYN_NOG_gpVIsS3EqPdiGo1ASAeHiyYEIJjzzLIenfeFiILyU41F7llx4tVJKw-BU7YA0_SvNk7XrZfqpjbuzkcsJLZYDr6ToI5rh",
+					"https://i2.wp.com/thefutureoftheforce.com/wp-content/uploads/2018/01/aunt-beru-header.jpg?resize=672%2C372&ssl=1",
 				"R5-D4":
 					"https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=374%2C0%2C1186%2C666&width=960",
 				"Biggs Darklighter":
