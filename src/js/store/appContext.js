@@ -9,6 +9,7 @@ export const Context = React.createContext(null);
 const injectContext = PassedComponent => {
 	const StoreWrapper = props => {
 		//this will be passed as the contenxt value
+
 		const [state, setState] = useState(
 			getState({
 				getStore: () => state.store,
@@ -22,6 +23,8 @@ const injectContext = PassedComponent => {
 		);
 
 		useEffect(() => {
+			state.actions.loadPeople();
+			state.actions.loadPlanets();
 			/**
 			 * EDIT THIS!
 			 * This function is the equivalent to "window.onLoad", it only runs once on the entire application lifetime

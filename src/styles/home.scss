@@ -1,0 +1,141 @@
+#logo{
+    width: 100px;
+    margin-left: 225px;
+    margin-right: 750px;
+}
+
+#navbarSupportedContent{
+       
+        float: right;
+
+}
+
+
+
+
+#favorites{
+   
+    width: 150px;
+}
+
+#cuerpo{
+    
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-25_bc15ec98.jpeg?download=true");
+}
+
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+body{
+   
+	background-color: #3a3a3a;
+	color:white;
+    font-family: 'system-ui';
+    width:100%;
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-25_bc15ec98.jpeg?download=true");
+}
+
+#nav_princ{
+    
+    background-color: #93acbf;
+}
+
+
+.card{
+    border-radius: 8px;
+    box-shadow: 0 12px 16px rgba(0,2,2,0.2);
+    overflow: hidden;
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+ /* Estilos track de scroll */
+
+#zona_people{
+    
+    height: 548px;
+}
+
+
+#zona_people::-webkit-scrollbar {
+  width: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+#zona_people::-webkit-scrollbar-thumb {
+  background: #93acbf;
+  border-radius: 4px;
+}
+
+#zona_people::-webkit-scrollbar-thumb:active {
+  background-color: #007bff;
+}
+
+#zona_people::-webkit-scrollbar-thumb:hover {
+  background: #007bff;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+#zona_people::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+#zona_people::-webkit-scrollbar-track:hover, 
+#zona_people::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+#zona_planets{
+    
+    height: 560px;
+}
+
+#zona_planets::-webkit-scrollbar {
+  width: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+#zona_planets::-webkit-scrollbar-thumb {
+  background: #93acbf;
+  border-radius: 4px;
+}
+
+#zona_planets::-webkit-scrollbar-thumb:active {
+  background-color: #007bff;
+}
+
+#zona_planets::-webkit-scrollbar-thumb:hover {
+  background: #007bff;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+#zona_planets::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+#zona_planets::-webkit-scrollbar-track:hover, 
+#zona_planets::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+.my-4{
+    border: 10px solid rgb(75, 123, 212);
+  border-radius: 5px;
+}
+
+.jumbotron{
+    border:1px solid #007bff;
+}
+
+.my-3{
+   
+  border-top: 1px dashed #007bff;
+}
